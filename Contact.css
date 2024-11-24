@@ -1,0 +1,121 @@
+/* bagian pertama */
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: helvetica;
+	box-sizing: border-box;
+}
+
+/* navbar */
+
+.navbar{
+	width: 100%;
+	padding: 30px;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	background-image: url(navbarbg.png);
+	background-size: cover; /* Membuat gambar memenuhi elemen */
+    background-position: center; /* Memposisikan gambar di tengah */
+    background-repeat: no-repeat; /* Mencegah pengulangan gambar */
+	justify-content: space-between;
+	font-weight: bold;
+	background-color: lightgrey;
+}
+
+.logo{
+	width: 160px;
+	margin-top: -10px;
+	cursor: pointer;
+}
+
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 20px;
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #d93923;
+	font-weight: bold;
+	padding: 15px;
+	border-radius: 100px;
+}
+
+li a:hover{
+	background: white;
+	transition: 0.5s;
+}
+
+.navbar a:hover{
+	color: #d93923;
+}
+
+
+/* Styling Section Kontak */
+.contact {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Formulir */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+form button {
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #0056b3;
+}
+
+/* Info Kontak */
+.info {
+    margin-top: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.info a:hover {
+    text-decoration: underline;
+}
